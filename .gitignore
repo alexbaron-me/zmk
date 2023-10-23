@@ -1,0 +1,7 @@
+build/
+modules/
+zephyr/
+zmk/
+
+*.uf2
+
