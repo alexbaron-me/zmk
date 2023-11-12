@@ -87,29 +87,19 @@
                         >;
              };
                                lower_layer {
-// -----------------------------------------------------------------------------------------
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-//                    |     |     |     |   |     |     |     |
                         bindings = <
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-   &kp TAB    &hm_l LCTRL N1       &hm_l LALT N2       &hm_l LGUI N3       &hm_shift_l LSHIFT N4       &hm_l RALT N5         &hm_r RALT N6   &hm_shift_r LSHIFT N7   &hm_r LGUI N8 &hm_r LALT N9    &hm_r LCTRL N0 &kp BSPC
+   &none  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
+   &none    &hm_l LCTRL N1       &hm_l LALT N2       &hm_l LGUI N3       &hm_shift_l LSHIFT N4       &hm_l RALT N5         &hm_r RALT N6   &hm_shift_r LSHIFT N7   &hm_r LGUI N8 &hm_r LALT N9    &hm_r LCTRL N0 &none
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
                                     &trans &trans       &trans    &trans  &trans   &trans
                         >;
                 };
 
                 raise_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    |     |     |     |   |     |     |     |
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp C_BRI_INC   &trans &kp C_PP   &kp C_NEXT     &kp C_VOL_UP  &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &kp C_BRI_DEC   &trans &kp C_MUTE &kp C_PREVIOUS &kp C_VOL_DN  &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
+   &none  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &none
+   &none &kp C_BRI_INC   &trans &kp C_PP   &kp C_NEXT     &kp C_VOL_UP  &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
+   &none &kp C_BRI_DEC   &trans &kp C_MUTE &kp C_PREVIOUS &kp C_VOL_DN  &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                              &trans &trans   &trans   &trans   &trans    &trans
                         >;
                 }; 
