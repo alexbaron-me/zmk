@@ -1,7 +1,8 @@
-build/
-modules/
-zephyr/
-zmk/
+build
+modules
+zephyr
+zmk
+.west
 
 *.uf2
 
