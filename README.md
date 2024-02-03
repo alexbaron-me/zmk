@@ -2,6 +2,7 @@
 
 A repo containing the configuration for my custom keyboard(s).
 Build with `./bin/build.sh` (requires a working [ZMK](https://zmk.dev) installation).
+*SETUP*: run `./bin/setup.sh` after cloning.
 
 ## Aurora Corne
 ![Corne Layout](./assets/aurora_corne.svg)
