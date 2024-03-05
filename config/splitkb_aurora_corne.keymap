@@ -1,6 +1,13 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include "../zmk-nodefree-config/helper.h"
 
 #include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"                // keyposition helpers
 #define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5  // left-hand keys
@@ -10,17 +17,8 @@
 #define HM_TAPPING_TERM 300
 #define HM_TAPPING_TERM_FAST 200
 
-#define DEFAULT 0
-#define LOWER 1
-#define RAISE 2
-#define GAMING 3
-
 &mt {
   flavor = "tap-preferred";
-};
-
-&caps_word {
-    continue-list = <UNDERSCORE MINUS>;
 };
 
 / {
@@ -89,39 +87,29 @@
 
                 default_layer {
                         bindings = <
-   &none &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &tog GAMING
+   &none &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &none
    &kp TAB &hm_l LCTRL A &hm_l LALT S &hm_l LGUI D &hm_shift_l LSHIFT F &hm_l RALT G   &hm_r RALT H &hm_shift_r LSHIFT J  &hm_r LGUI K     &hm_r LALT L   &hm_r LCTRL SEMI &kp SQT
    &none &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
                &mo 2 &mt LC(LA(LSHIFT)) SPACE &kp BKSP   &kp RET &kp ESC &mo 1
                         >;
-								};
-
-								lower {
-												bindings = <
-	 &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-   &kp TAB    &hm_l LCTRL N1       &hm_l LALT N2       &hm_l LGUI N3       &hm_shift_l LSHIFT N4       &hm_l RALT N5         &hm_r RALT N6   &hm_shift_r LSHIFT N7   &hm_r LGUI N8 &hm_r LALT N9    &hm_r LCTRL N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+             };
+                               lower_layer {
+                        bindings = <
+   &none  &trans       &trans       &trans       &trans       &trans         &kp UNDER &kp PLUS   &kp LBRC  &kp RBRC &kp PIPE &none
+	 &trans    &hm_l LCTRL N1       &hm_l LALT N2       &hm_l LGUI N3       &hm_shift_l LSHIFT N4       &hm_l RALT N5         &hm_r RALT N6   &hm_shift_r LSHIFT N7   &hm_r LGUI N8 &hm_r LALT N9    &hm_r LCTRL N0 &trans
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &none
                                     &trans &trans       &trans    &trans  &trans   &trans
-												>;
-								};
+                        >;
+                };
 
-								raise {
-												bindings = <
-	 &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp C_BRI_INC   &trans &kp C_PP   &kp C_NEXT     &kp C_VOL_UP  &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &kp C_BRI_DEC   &trans &kp C_MUTE &kp C_PREVIOUS &kp C_VOL_DN  &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
+                raise_layer {
+                        bindings = <
+   &none  &kp C_BRI_INC   &trans   &kp C_PP   &kp C_NEXT     &kp C_VOL_UP &kp MINUS &kp EQUAL	 &kp LBKT  &kp RBKT &kp BSLH &none
+	 &trans &kp EXCL				&kp AT   &kp HASH   &kp DLLR			 &kp PRCNT    &kp CARET &kp AMPS   &kp KP_MULTIPLY &kp LPAR  &kp RPAR &trans
+   &none  &kp C_BRI_DEC   &trans   &kp C_MUTE &kp C_PREVIOUS &kp C_VOL_DN &kp UNDER &kp PLUS   &kp LBRC  &kp RBRC &kp PIPE &none
                              &trans &trans   &trans   &trans   &trans    &trans
-												>;
-								};
-
-								gaming {
-												bindings = <
-   &kp TAB &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &tog GAMING
-   &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &none
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
-               &kp ESC &kp SPACE &kp TAB   &kp RET &kp ESC &none
-												>;
-								}
-					};
+                        >;
+                }; 
+        };
 };
 
