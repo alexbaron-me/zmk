@@ -89,6 +89,18 @@
             key-positions = <RT5 RB5>;
             bindings = <&tog 3>;
 					};
+					combo_capsword_right {
+						timeout-ms = <50>;
+						key-positions = <RM1 RM4>;
+						bindings = <&caps_word>;
+						layers = <0>;
+					};
+					combo_capsword_left {
+						timeout-ms = <50>;
+						key-positions = <LM1 LM4>;
+						bindings = <&caps_word>;
+						layers = <0>;
+					};
 				};
 
         keymap {
