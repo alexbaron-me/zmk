@@ -82,6 +82,15 @@
         };
         };
 
+				combos {
+					compatible = "zmk,combos";
+					combo_game {
+            timeout-ms = <50>;
+            key-positions = <RT5 RB5>;
+            bindings = <&tog 3>;
+					};
+				};
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -110,6 +119,15 @@
                              &trans &trans   &trans   &trans   &trans    &trans
                         >;
                 }; 
+
+								game_layer {
+												bindings = <
+   &kp ESC    &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &none
+   &kp TAB    &kp A &kp S &kp D &kp F &kp F   &kp H &kp J  &kp K     &kp L   &kp SEMI &none
+   &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
+               &kp LCTRL &kp SPACE &kp BKSP   &kp RET &kp ESC &mo 1
+												>;
+								};
         };
 };
 
