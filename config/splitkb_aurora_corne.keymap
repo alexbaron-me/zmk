@@ -135,10 +135,10 @@
 
         raise_layer {
             bindings = <
-&none   &kp C_BRI_INC  &trans  &kp C_PP    &kp C_NEXT      &kp C_VOL_UP    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &none
-&trans  &kp EXCL       &kp AT  &kp HASH    &kp DLLR        &kp PRCNT       &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
-&none   &kp C_BRI_DEC  &trans  &kp C_MUTE  &kp C_PREVIOUS  &kp C_VOL_DN    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &none
-                               &trans      &trans          &trans          &trans     &trans     &trans
+&trans  &kp C_BRI_INC  &kp C_NEXT  &kp C_PP    &kp C_VOL_UP  &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &trans
+&trans  &kp EXCL       &kp AT      &kp HASH    &kp DLLR      &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
+&trans  &kp C_BRI_DEC  &kp C_PREV  &kp C_MUTE  &kp C_VOL_DN  &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &trans
+                                   &trans      &trans        &trans       &trans     &trans     &trans
             >;
         };
 
