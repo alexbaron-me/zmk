@@ -108,20 +108,20 @@
 
         combo_game {
             timeout-ms = <50>;
-            key-positions = <RT5 RB5 0 24 35 11>;
+            key-positions = <0 24 35 11>;
             bindings = <&tog 3>;
         };
 
         combo_capsword_right {
             timeout-ms = <50>;
-            key-positions = <RM1 RM4 19 22>;
+            key-positions = <19 22>;
             bindings = <&caps_word>;
             layers = <0>;
         };
 
         combo_capsword_left {
             timeout-ms = <50>;
-            key-positions = <LM1 LM4 16 13>;
+            key-positions = <16 13>;
             bindings = <&caps_word>;
             layers = <0>;
         };
