@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - main
+jobs:
+  render_keymap:
+    name: Render Keymap
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Install Dependencies
+        run: pip install keymap-drawer
+      - name: Clone Repo
+        uses: actions/checkout@v4
+      - name: Render Keymap
+        run: bash ./bin/render.sh
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto-render keymap"
