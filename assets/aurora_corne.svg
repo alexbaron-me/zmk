@@ -302,8 +302,8 @@ path.combo {
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESCAPE</text>
-<a href="#symbols">
-<text x="0" y="24" class="key hold layer-activator">symbols</text>
+<a href="#symbol">
+<text x="0" y="24" class="key hold layer-activator">symbol</text>
 </a></g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -334,14 +334,14 @@ path.combo {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="616" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="616" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="616" y="98" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="224" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="224" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="224" y="98" class="combo hold">toggle</text>
 </g>
 </g>
@@ -553,20 +553,20 @@ path.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="616" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="616" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="616" y="98" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="224" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="224" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="224" y="98" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 661)" class="layer-symbols">
-<text x="0" y="28" class="label" id="symbols">symbols:</text>
+<g transform="translate(30, 661)" class="layer-symbol">
+<text x="0" y="28" class="label" id="symbol">symbol:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -757,14 +757,14 @@ path.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="616" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="616" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="616" y="98" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="224" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="224" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="224" y="98" class="combo hold">toggle</text>
 </g>
 </g>
@@ -950,14 +950,14 @@ path.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="616" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="616" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="616" y="98" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="224" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="224" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="224" y="98" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1144,97 +1144,97 @@ path.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="616" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="616" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="616" y="98" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="224" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="224" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="224" y="98" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 1653)" class="layer-temp_number">
-<text x="0" y="28" class="label" id="temp_number">temp_number:</text>
+<g transform="translate(30, 1653)" class="layer-tem_num">
+<text x="0" y="28" class="label" id="tem_num">tem_num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(308, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(588, 35)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(644, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(700, 35)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(756, 49)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(812, 49)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 105)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
@@ -1279,56 +1279,56 @@ path.combo {
 </g>
 <g transform="translate(812, 105)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 161)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(252, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(308, 154)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(532, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(588, 147)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
@@ -1345,14 +1345,14 @@ path.combo {
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
@@ -1361,26 +1361,26 @@ path.combo {
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="38" class="key hold">toggle</text>
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="38" class="key hold">toggle</text>
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#temp_number">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="0" y="0" class="key tap layer-activator">tem_num</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
@@ -1395,14 +1395,14 @@ path.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="616" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="616" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="616" y="98" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<a href="#temp_number">
-<text x="224" y="88" class="combo tap layer-activator"><tspan style="font-size: 64%">temp_number</tspan></text>
+<a href="#tem_num">
+<text x="224" y="88" class="combo tap layer-activator">tem_num</text>
 </a><text x="224" y="98" class="combo hold">toggle</text>
 </g>
 </g>
