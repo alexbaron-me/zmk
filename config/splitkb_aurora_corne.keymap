@@ -11,7 +11,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <19 20>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
