@@ -30,6 +30,8 @@
 &sk LSHFT  &kp Z  &kp X  &kp C      &kp V               &kp B        &kp N            &kp M      &kp COMMA        &kp DOT  &kp FSLH          &sl 3
                          &sk LCTRL  &mt LEFT_GUI ENTER  &lt 1 TAB    &lt 2 BACKSPACE  &kp SPACE  &sk RIGHT_SHIFT
             >;
+
+            label = "default";
         };
 
         lower_layer {
@@ -39,6 +41,8 @@
 &trans  &trans           &kp TILDE     &kp GRAVE     &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans        &trans                &kp LEFT_WIN           &trans
                                        &trans        &trans            &trans            &kp BACKSPACE    &trans             &kp COLON
             >;
+
+            label = "lower";
         };
 
         raise_layer {
@@ -48,6 +52,8 @@
 &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp K_COPY      &kp K_PASTE  &kp SEMICOLON    &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_NEXT    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
                                          &kp ESCAPE      &trans       &kp TAB          &trans            &trans          &trans
             >;
+
+            label = "raise";
         };
 
         function_layer {
@@ -57,6 +63,8 @@
 &trans  &kp CAPS  &trans   &trans  &trans  &trans     &trans         &trans        &bt BT_DISC 2  &trans  &trans      &kp PRINTSCREEN
                            &trans  &trans  &kp TAB    &kp BACKSPACE  &trans        &trans
             >;
+
+            label = "fnctn";
         };
     };
 };
