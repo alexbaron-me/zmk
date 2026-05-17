@@ -47,7 +47,7 @@
 
         raise_layer {
             bindings = <
-&trans  &kp DELETE     &trans            &kp UNDERSCORE  &kp PLUS     &kp PAGE_UP      &trans            &trans          &trans        &kp BACKSLASH      &kp PIPE         &trans
+&trans  &kp DELETE     &trans            &kp UNDERSCORE  &kp PLUS     &kp PAGE_UP      &trans            &kp C_BRI_DEC   &kp C_BRI_UP  &kp BACKSLASH      &kp PIPE         &trans
 &trans  &kp HOME       &kp END           &kp MINUS       &kp EQUAL    &kp PAGE_DOWN    &kp LEFT          &kp DOWN        &kp UP_ARROW  &kp RIGHT          &kp K_MENU       &trans
 &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp K_COPY      &kp K_PASTE  &kp SEMICOLON    &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_NEXT    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
                                          &kp ESCAPE      &trans       &kp TAB          &trans            &trans          &trans
